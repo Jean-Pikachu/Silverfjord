@@ -20,11 +20,17 @@
     --iconLinecaps: {{ settings.icon_linecaps | default: 'miter' }};
 
     {% if settings.button_style == 'round-slight' %}
-      --buttonRadius: 3px;
+      --buttonRadius: 5px;
     {% elsif settings.button_style == 'round' %}
       --buttonRadius: 50px;
     {% else %}
       --buttonRadius: 0px;
+    {% endif %}
+
+    {% if settings.image_style == 'round-slight' %}
+      --imageRadius: 5px;
+    {% else %}
+      --imageRadius: 0px;
     {% endif %}
 
     --colorGridOverlayOpacity: {{ settings.collection_grid_opacity | divided_by: 100.0 }};
