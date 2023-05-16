@@ -24,6 +24,7 @@
 
   --colorBody:{{ settings.color_body_bg | default: "#fff" }};
   --colorBodyDim:{{ settings.color_body_bg | default: "#1c1d1d" | color_darken: 5 }};
+  
 
   --colorFooter:{{ settings.color_footer | default: "#111" }};
   --colorFooterText:{{ settings.color_footer_text | default: "#fff" }};
@@ -2238,9 +2239,9 @@ button[disabled],html input[disabled]{
 
 .btn--full{
   width:100%;
-  padding:11px 20px;
   transition:none;
-  padding:13px 20px
+  padding:19px 20px;
+  box-shadow: 0px 3px 6px rgba(0,0,0, .4);
 }
 
 [data-button_style=angled] .btn--full{
@@ -6863,14 +6864,15 @@ input[type=image]{
 
 /* General BUY BOX */
 .product-block-buy-box {
-  padding: 10px;
-
+  padding: 25px 15px 10px;
+  background-color: var(--colorBodyDim);
+  border-radius: var(--imageRadius);
 }
 
 .product-block-buy-box-sales-points {
   display: flex;
   column-gap: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .product-block-buy-box-sales-point {
@@ -6895,7 +6897,7 @@ input[type=image]{
   display: flex;
   gap: 3px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 /* END of BUY BOX custom code */
