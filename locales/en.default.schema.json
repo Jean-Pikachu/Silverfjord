@@ -3365,6 +3365,33 @@
         "surface_pickup_enable": {
           "label": "Enable pickup availability feature",
           "info": "Learn how to setup this feature [here](https:\/\/help.shopify.com\/en\/manual\/shipping\/setting-up-and-managing-your-shipping\/local-methods\/local-pickup)"
+        },
+        "header_sales_points": {
+          "content": "Sales points"
+        },
+        "sales_point_show_inventory_status": {
+          "label": "Show the inventory status indicator"
+        },
+        "sales_point_inventory_threshold": {
+          "label": "Inventory treshold"
+        },
+        "sales_point_icon_1": {
+          "label": "Icon 1"
+        },
+        "sales_point_text_1": {
+          "label": "Text 1"
+        },
+        "sales_point_icon_2": {
+          "label": "Icon 2"
+        },
+        "sales_point_text_2": {
+          "label": "Text 2"
+        },
+        "header_payment_provider": {
+          "content": "Payment provider logos"
+        },
+        "payment_provider_logos": {
+          "label": "Add svg code snippet"
         }
       }
     },

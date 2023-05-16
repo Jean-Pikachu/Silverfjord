@@ -1,0 +1,39 @@
+<div class="product-block-buy-box-sales-points">
+
+    <div class="product-block-buy-box-sales-point">
+      {%- if block.settings.sales_point_show_inventory_status -%}
+        <div>
+          {%- render 'product-inventory', classes: 'in-buy-box', product: product, current_variant: current_variant, block: block -%}
+        </div>
+      {%- endif -%}
+    </div>
+
+    {% if block.settings.sales_point_text_1 %}
+      <div class="product-block-buy-box-sales-point">
+        {% if block.settings.sales_point_icon_1 %}
+          <img 
+            src="{{ block.settings.sales_point_icon_1 | image_url: width: 100 }}" 
+            alt="{{ block.settings.sales_point_icon_1.alt }}" 
+            width="{{ block.settings.sales_point_icon_1.width }}"
+            height="{{ block.settings.sales_point_icon_1.height }}"
+            loading="lazy">
+        {% endif %}
+        <p>{{ block.settings.sales_point_text_1 }}</p>
+      </div>
+    {% endif %}
+
+    {% if block.settings.sales_point_text_2 %}
+      <div class="product-block-buy-box-sales-point">
+        {% if block.settings.sales_point_icon_2 %}
+          <img 
+            src="{{ block.settings.sales_point_icon_2 | image_url: width: 100 }}" 
+            alt="{{ block.settings.sales_point_icon_2.alt }}" 
+            width="{{ block.settings.sales_point_icon_2.width }}"
+            height="{{ block.settings.sales_point_icon_2.height }}"
+            loading="lazy">
+        {% endif %}
+        <p>{{ block.settings.sales_point_text_2 }}</p>
+      </div>
+    {% endif %}
+
+  </div>
