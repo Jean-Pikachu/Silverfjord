@@ -2397,6 +2397,12 @@
         "color_large_image_bg": {
           "label": "Fondo de la sección de imágenes"
         },
+        "color_accent_1": {
+          "label": "Colores acentuados 1"
+        },
+        "color_accent_2": {
+          "label": "Colores acentuados 2"
+        },
         "header_header": "Encabezado",
         "color_header": {
           "label": "Historial"
