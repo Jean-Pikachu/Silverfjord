@@ -27,25 +27,6 @@
             "color_swatches": false
           }
         },
-        "4cc110f5-1194-4357-bb1d-a691c932e4af": {
-          "type": "inventory_status",
-          "settings": {
-            "inventory_threshold": 10,
-            "inventory_transfers_enable": true
-          }
-        },
-        "sales_point": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "checkmark",
-            "text": "Gratis leverans i Sverige 🇸🇪"
-          }
-        },
-        "a97937f0-34da-4f66-8021-d1395e5cead0": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -91,9 +72,6 @@
         "price",
         "separator",
         "variant_picker",
-        "4cc110f5-1194-4357-bb1d-a691c932e4af",
-        "sales_point",
-        "a97937f0-34da-4f66-8021-d1395e5cead0",
         "buy_buttons",
         "fef961fd-f8d9-4a4a-9e05-04d7e37eb1e9",
         "description",
