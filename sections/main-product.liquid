@@ -238,6 +238,28 @@
       "content": "Sales points"
     },
     {
+      "type": "checkbox",
+      "id": "inventory_status_visible",
+      "label": "Show the inventory status indicator",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "inventory_threshold",
+      "label": "t:product_block.inventory_status.settings.inventory_threshold.label",
+      "default": 10,
+      "min": 0,
+      "max": 20,
+      "step": 2
+    },
+    {
+      "type": "checkbox",
+      "id": "inventory_transfers_enable",
+      "label": "t:product_block.inventory_status.settings.inventory_transfers_enable.label",
+      "info": "t:product_block.inventory_status.settings.inventory_transfers_enable.info",
+      "default": true
+    },
+    {
       "type": "image_picker",
       "id": "sales_point_icon_1",
       "label": "Icon 1"
@@ -256,16 +278,6 @@
       "type": "text",
       "id": "sales_point_text_2",
       "label": "Text 2"
-    },
-    {
-      "type": "image_picker",
-      "id": "sales_point_icon_3",
-      "label": "Icon 3"
-    },
-    {
-      "type": "text",
-      "id": "sales_point_text_3",
-      "label": "Text 3"
     }
   ]
 },
