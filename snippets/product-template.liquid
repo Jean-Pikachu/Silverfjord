@@ -318,13 +318,59 @@
                   {%- when 'buy_buttons' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {%- unless product.empty? -%}
-                        <div class="product-block">
+                        <div class="product-block-buy-box">
+                          
+                          <div class="product-block-buy-box-sales-points">
+
+                            <div class="product-block-buy-box-sales-point">
+                              {%- if block.settings.sales_point_show_inventory_status -%}
+                                <div>
+                                  {%- render 'product-inventory', classes: 'in-buy-box', product: product, current_variant: current_variant, block: block -%}
+                                </div>
+                              {%- endif -%}
+                            </div>
+
+                            {% if block.settings.sales_point_text_1 %}
+                              <div class="product-block-buy-box-sales-point">
+                                {% if block.settings.sales_point_icon_1 %}
+                                  <img 
+                                    src="{{ block.settings.sales_point_icon_1 | image_url: width: 100 }}" 
+                                    alt="{{ block.settings.sales_point_icon_1.alt }}" 
+                                    width="{{ block.settings.sales_point_icon_1.width }}"
+                                    height="{{ block.settings.sales_point_icon_1.height }}"
+                                    loading="lazy">
+                                {% endif %}
+                                <p>{{ block.settings.sales_point_text_1 }}</p>
+                              </div>
+                            {% endif %}
+
+                            {% if block.settings.sales_point_text_2 %}
+                              <div class="product-block-buy-box-sales-point">
+                                {% if block.settings.sales_point_icon_2 %}
+                                  <img 
+                                    src="{{ block.settings.sales_point_icon_2 | image_url: width: 100 }}" 
+                                    alt="{{ block.settings.sales_point_icon_2.alt }}" 
+                                    width="{{ block.settings.sales_point_icon_2.width }}"
+                                    height="{{ block.settings.sales_point_icon_2.height }}"
+                                    loading="lazy">
+                                {% endif %}
+                                <p>{{ block.settings.sales_point_text_2 }}</p>
+                              </div>
+                            {% endif %}
+
+                          </div>
+
+      
                           {%- render 'product-form',
                             form_id: form_id,
                             product: product,
                             show_dynamic_checkout: block.settings.show_dynamic_checkout,
                             current_variant: current_variant
                           -%}
+
+                          {% if payment_provider_logos %}
+                            {{ payment_provider_logos }}
+                          {% endif %}
                         </div>
                       {%- endunless -%}
 

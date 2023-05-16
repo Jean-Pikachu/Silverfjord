@@ -16,7 +16,7 @@
   endif
 -%}
 
-<div class="product-block product-block--sales-point{% unless current_variant.available or show_incoming %} hide{% endunless %}" {{ block.shopify_attributes }}>
+<div class="product-block product-block--sales-point{% unless current_variant.available or show_incoming %} hide{% endunless %} {{ classes }}" {{ block.shopify_attributes }}>
   <ul class="sales-points">
     <li class="sales-point">
       <span class="icon-and-text{% if inventory_visible == true %} inventory--low{% endif %}{% unless current_variant.available %} hide{% endunless %}">

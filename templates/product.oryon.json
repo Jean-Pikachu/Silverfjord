@@ -62,9 +62,8 @@
           "settings": {
             "show_dynamic_checkout": false,
             "surface_pickup_enable": false,
-            "inventory_status_visible": true,
-            "inventory_threshold": 10,
-            "inventory_transfers_enable": false,
+            "sales_point_show_inventory_status": true,
+            "sales_point_inventory_threshold": 10,
             "sales_point_icon_1": "shopify:\/\/shop_images\/shipping-box.svg",
             "sales_point_text_1": "Gratis leverans i Sverige 🇸🇪",
             "sales_point_icon_2": "shopify:\/\/shop_images\/shipping-returns.svg",
