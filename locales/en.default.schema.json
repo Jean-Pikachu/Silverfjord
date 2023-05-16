@@ -2588,6 +2588,18 @@
             }
           }
         },
+        "header_images": "Images",
+        "image_style": {
+          "label": "Image style",
+          "options": {
+            "square": {
+              "label": "Square"
+            },
+            "round-slight": {
+              "label": "Slightly round"
+            }
+          }
+        },
         "icon_linecaps": {
           "label": "Edges",
           "options": {

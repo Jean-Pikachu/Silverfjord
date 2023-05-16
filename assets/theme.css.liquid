@@ -6846,13 +6846,14 @@ input[type=image]{
 /* Custom code for BUY BOX */
 
 /* Custom for when the inventory indicator is inside the buy box */
-.product-block--sales-point.in-buy-box .sales-points {
+.product-block--sales-point.in-buy-box, .product-block--sales-point.in-buy-box .sales-points {
   margin: 0;
 }
 
 .product-block--sales-point.in-buy-box .icon-and-text {
   flex-direction: column;
   row-gap: 5px;
+  text-align: center;
 }
 
 .product-block--sales-point.in-buy-box .icon-and-text .icon {
@@ -6862,11 +6863,14 @@ input[type=image]{
 
 /* General BUY BOX */
 .product-block-buy-box {
-  
+  padding: 10px;
+
 }
 
 .product-block-buy-box-sales-points {
   display: flex;
+  column-gap: 10px;
+  margin-bottom: 25px;
 }
 
 .product-block-buy-box-sales-point {
@@ -6882,6 +6886,17 @@ input[type=image]{
   height: auto;
 }
 
+.product-block-buy-box-sales-point p {
+  text-align: center;
+  margin: 0;
+}
+
+.product-block-buy-box-payment-icons {
+  display: flex;
+  gap: 3px;
+  text-align: center;
+  margin-top: 20px;
+}
 
 /* END of BUY BOX custom code */
 
