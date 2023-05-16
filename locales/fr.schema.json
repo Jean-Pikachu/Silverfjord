@@ -2391,6 +2391,12 @@
         "color_large_image_bg": {
           "label": "Fond de section d'image"
         },
+        "color_accent_1": {
+          "label": "Couleur accentuée 1"
+        },
+        "color_accent_2": {
+          "label": "Couleur accentuée 2"
+        },
         "header_header": "En-tête",
         "color_header": {
           "label": "Arrière-plan"

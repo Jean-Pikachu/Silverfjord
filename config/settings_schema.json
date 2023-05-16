@@ -87,6 +87,18 @@
         "default": "#1c1d1d"
       },
       {
+        "type": "color",
+        "id": "color_accent_1",
+        "label": "t:settings_schema.colors.settings.color_accent_1.label",
+        "default": "#0ec21f"
+      },
+      {
+        "type": "color",
+        "id": "color_accent_2",
+        "label": "t:settings_schema.colors.settings.color_accent_2.label",
+        "default": "#133bcf"
+      },
+      {
         "type": "header",
         "content": "t:settings_schema.colors.settings.header_header"
       },

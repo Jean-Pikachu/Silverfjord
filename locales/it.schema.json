@@ -2397,6 +2397,12 @@
         "color_large_image_bg": {
           "label": "Sfondo sezione immagine"
         },
+        "color_accent_1": {
+          "label": "Tinte vivaci 1"
+        },
+        "color_accent_2": {
+          "label": "Tinte vivaci 2"
+        },
         "header_header": "Header",
         "color_header": {
           "label": "Sfondo"
