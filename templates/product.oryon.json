@@ -61,7 +61,14 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
-            "surface_pickup_enable": false
+            "surface_pickup_enable": false,
+            "inventory_status_visible": true,
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": false,
+            "sales_point_icon_1": "shopify:\/\/shop_images\/shipping-box.svg",
+            "sales_point_text_1": "Gratis leverans i Sverige 🇸🇪",
+            "sales_point_icon_2": "shopify:\/\/shop_images\/shipping-returns.svg",
+            "sales_point_text_2": "30 dagars öppet köp"
           }
         },
         "description": {
