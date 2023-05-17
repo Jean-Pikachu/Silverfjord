@@ -130,6 +130,16 @@
         "image": "shopify:\/\/shop_images\/Functions.webp"
       }
     },
+    "b24e53ec-dd6f-4e8d-a1d3-052b70976860": {
+      "type": "product-single-feature",
+      "settings": {
+        "header_type": "icon",
+        "image": "shopify:\/\/shop_images\/iconmonstr-battery-10.svg",
+        "background_color": "#133bcf",
+        "title": "7-15 dagar batteritid",
+        "description": "<p>Efter full laddning — 2 timmer — räcker kockans batter i 7 dagar vid normal användning eller upp till 15 dagar i standby-läge.<\/p><p>450-mAh batteri med stor kapacitet, använd vårt patenterade Ultra-low power intelligent chip.<\/p>"
+      }
+    },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
@@ -266,20 +276,49 @@
         "space_around": true
       }
     },
-    "b24e53ec-dd6f-4e8d-a1d3-052b70976860": {
-      "type": "product-single-feature",
+    "52838260-fb01-4cc4-ad3a-0de19a170ae4": {
+      "type": "product-feature-group",
+      "blocks": {
+        "02741aaa-a300-4e4f-b745-4896356e4e61": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/iconmonstr-connection-1.svg",
+            "title": "Integrerad laddning av hörlurar",
+            "description": "<p>Klockan har en patenterad förvaringsbox för laddning, med integrerad snabbladdning.<\/p><p>Med tiden kommer öronsnäckorna automatiskt att forma sig efter ditt öra med vårt patenterade memory foam, vilket gör dem extremt bekväma.<\/p>"
+          }
+        },
+        "843054fd-8c0a-4f36-986e-3f76b8981615": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/iconmonstr-headphones-16.svg",
+            "title": "Musik var som helst!",
+            "description": "<p>Med 128 Mb-minne och med musiklagring av mer än 100 låtar kan du njuta av musik även utan din mobiltelefon, var du än är!<\/p><p>Eller anslut till telefonens Bluetooth för obegränsad musik!<\/p>"
+          }
+        },
+        "c5993a05-07be-4268-9abb-ef40c67327ea": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/iconmonstr-bluetooth-1.svg",
+            "title": "Bluetooth-samtal",
+            "description": "<p>Gör att du kan svara på samtal och ringa direkt på din smartklocka via en Bluetooth-anslutning. Du missar aldrig ett viktigt samtal eller meddelande under ett möte eller träningspass.<\/p><p>Utrustad med en högkänslig mikrofon, fristående ljud och högkvalitativa samtal. Ger en superbekväm samtalsupplevelse, ringsignalpåminnelser, inga missade samtal och är handsfree.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "02741aaa-a300-4e4f-b745-4896356e4e61",
+        "843054fd-8c0a-4f36-986e-3f76b8981615",
+        "c5993a05-07be-4268-9abb-ef40c67327ea"
+      ],
       "settings": {
-        "header_type": "icon",
-        "image": "shopify:\/\/shop_images\/iconmonstr-battery-10.svg",
-        "background_color": "#133bcf",
-        "title": "7-15 dagar batteritid",
-        "description": "<p>Efter full laddning — 2 timmer — räcker kockans batter i 7 dagar vid normal användning eller upp till 15 dagar i standby-läge.<\/p><p>450-mAh batteri med stor kapacitet, använd vårt patenterade Ultra-low power intelligent chip.<\/p>"
+        "title": "Hörlurar & bluetooth",
+        "image": "shopify:\/\/shop_images\/Earbuds.webp"
       }
     }
   },
   "order": [
     "main",
     "e3fc0f18-bf8b-4c4b-8d04-cdf6c6ac4119",
+    "b24e53ec-dd6f-4e8d-a1d3-052b70976860",
     "sub",
     "product-recommendations",
     "recently-viewed",
@@ -288,6 +327,6 @@
     "9e3a54af-3593-4d61-a275-9f9bbbd15bef",
     "16833003058d1c4a42",
     "1683300312aa8c2a44",
-    "b24e53ec-dd6f-4e8d-a1d3-052b70976860"
+    "52838260-fb01-4cc4-ad3a-0de19a170ae4"
   ]
 }
