@@ -1916,7 +1916,7 @@ button[disabled],html input[disabled]{
   min-width:90px;
   vertical-align:middle;
   cursor:pointer;
-  /* border:1px solid transparent; */
+  border:1px solid transparent;
   -webkit-user-select:none;
           user-select:none;
   -webkit-appearance:none;
@@ -6844,7 +6844,7 @@ input[type=image]{
   margin-top:-20px;
 }
 
-/* Custom code for BUY BOX */
+/* BUY BOX */
 
 /* Custom for when the inventory indicator is inside the buy box */
 .product-block--sales-point.in-buy-box, .product-block--sales-point.in-buy-box .sales-points {
@@ -6861,8 +6861,7 @@ input[type=image]{
   margin-right: 0;
 }
 
-
-/* General BUY BOX */
+/* General buy box */
 .product-block-buy-box {
   padding: 25px 15px 10px;
   background-color: var(--colorBodyDim);
@@ -6900,14 +6899,10 @@ input[type=image]{
   text-align: center;
   margin-top: 10px;
 }
+/* END of buy box custom code */
 
-/* END of BUY BOX custom code */
 
 /* PRODUCT DESCRIPTION */
-.product-description {
-
-}
-
 .product-description ul {
   list-style: none;
 }
@@ -6931,9 +6926,51 @@ input[type=image]{
   -webkit-mask-size: cover;
   background-color: var(--colorAccent1);
 }
-
-
 /* END of product description */
+
+
+/* PRODUCT FEATURE GROUP SECTION */
+.product-feature-group {
+  
+}
+
+.product-feature-group>header {
+  margin-bottom: 20px;
+}
+
+.product-feature-group>header img {
+  height: auto;
+  border-radius: var(--imageRadius);
+}
+
+/* The individual features */
+.product-feature-group-feature {
+  display: grid;
+  grid-template-columns: 45px calc(100% - 55px);
+  column-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.product-feature-group-feature figure {
+  /* Actual images are inserted in style tag */
+  display: block;
+  margin: 0;
+  height: 45px;
+  width: 45px;
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  background-color: var(--colorAccent2);
+}
+
+.product-feature-group-feature>div h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: var(--typeBaseSize);
+  color: var(--colorAccent2);
+  margin: 0 0 5px;
+}
+
+/* END of feature group section */
 
 
 .product-block--header+.product-block--price{

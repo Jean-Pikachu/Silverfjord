@@ -1581,6 +1581,7 @@
         "image": "Header image"
       },
       "blocks": {
+        "name": "Feature",
         "icon": "Icon",
         "title": "Title",
         "description": "Description"
