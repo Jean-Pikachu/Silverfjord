@@ -1594,7 +1594,8 @@
           "label": "Header type",
           "info": "Choose header type: Full image, or icon. Select image\/icon below.",
           "icon": "Icon",
-          "image": "Header image"
+          "image": "Header image",
+          "none": "No header"
         },
         "image": {
           "label": "Header image/icon",
