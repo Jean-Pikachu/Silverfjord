@@ -1592,7 +1592,7 @@
       "settings": {
         "header_type": {
           "label": "Header type",
-          "info": "Choose header type: Full image, or icon. Select image/icon below.",
+          "info": "Choose header type: Full image, or icon. Select image\/icon below.",
           "icon": "Icon",
           "image": "Header image"
         },
