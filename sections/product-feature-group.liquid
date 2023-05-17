@@ -1,0 +1,40 @@
+<section class="product-feature-group">
+  <h2>{{ section.settings.title }}</h2>
+  {{ section.settings.image | image_url: width: 500 | image_tag }}
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.product-feature-group.name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.product-feature-group.settings.title"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.product-feature-group.settings.image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image_picker",
+      "id": "icon",
+      "label": "t:sections.product-feature-group.blocks.icon"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.product-feature-group.blocks.title"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "t:sections.product-feature-group.blocks.description"
+    },
+    
+  ]
+}
+{% endschema %}
