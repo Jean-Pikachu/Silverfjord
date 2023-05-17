@@ -1598,7 +1598,7 @@
           "none": "No header"
         },
         "image": {
-          "label": "Header image/icon",
+          "label": "Header image\/icon",
           "info": "Upload icon or image here. Select header type above."
         },
         "color": {

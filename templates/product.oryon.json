@@ -181,7 +181,7 @@
     "640d0131-080f-4aa9-aa01-3e3f0a8d31c4": {
       "type": "product-single-feature",
       "settings": {
-        "header_type": "image",
+        "header_type": "none",
         "image": "shopify:\/\/shop_images\/anpassningsbar.jpg",
         "background_color": "#000000",
         "title": "Fullt anpassningsbar",
