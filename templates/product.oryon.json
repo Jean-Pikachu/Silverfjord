@@ -92,6 +92,44 @@
         "product_video_style": "muted"
       }
     },
+    "e3fc0f18-bf8b-4c4b-8d04-cdf6c6ac4119": {
+      "type": "product-feature-group",
+      "blocks": {
+        "fd8ac3d3-fc9b-418c-9a4b-1a74ae21edcd": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/iconmonstr-medical-6.svg",
+            "title": "Hjärtfrekvensmätning i realtid",
+            "description": "Övervaka enkelt din hälsa och kondition i realtid. Eller få varningar när något onormalt upptäcks"
+          }
+        },
+        "35b30050-3abf-4bb6-aa48-b8ea772e3b87": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/iconmonstr-weather-136.svg",
+            "title": "Varning för hög kroppstemperatur",
+            "description": "När klockan upptäcker onormal kroppstemperatur vibrerar klockan och påminner dig om att kyla ner dig, dricka vatten och ta hand om dig själv."
+          }
+        },
+        "16a05cdc-ff95-4fb9-b66c-292e7a983e42": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/iconmonstr-drop-13.svg",
+            "title": "Blodtrycks- och syremätning",
+            "description": "En ny metod för liveövervakning gör att du kan mäta blodtryck och syre direkt via klockan utan att ansluta en app, så att du kan förstå dina kroppsförändringar, när som helst och var som helst."
+          }
+        }
+      },
+      "block_order": [
+        "fd8ac3d3-fc9b-418c-9a4b-1a74ae21edcd",
+        "35b30050-3abf-4bb6-aa48-b8ea772e3b87",
+        "16a05cdc-ff95-4fb9-b66c-292e7a983e42"
+      ],
+      "settings": {
+        "title": "Allt du behöver för fitness",
+        "image": "shopify:\/\/shop_images\/Functions.webp"
+      }
+    },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
@@ -231,6 +269,7 @@
   },
   "order": [
     "main",
+    "e3fc0f18-bf8b-4c4b-8d04-cdf6c6ac4119",
     "sub",
     "product-recommendations",
     "recently-viewed",
