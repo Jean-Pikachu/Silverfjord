@@ -1,34 +1,41 @@
-{% comment %}
-  <div class="page-width">
-    <section class="product-single-feature">
-      <header>
+<div class="page-width">
+  <section 
+    class="product-block--large product-single-feature"
+    style="background-color: {{ section.settings.background_color }}">
+  
+    {% case section.settings.header_type %}
+      {% when 'icon' %}
+
+        <header
+          class="product-single-feature__header--icon">
+          <figure
+            style="
+              mask: url({{ section.settings.image | image_url: width: 50 }}) no-repeat 50% 50%;
+              -webkit-mask: url({{ section.settings.image | image_url: width: 50 }}) no-repeat 50% 50%;
+              mask-size: cover;
+              -webkit-mask-size: cover;">
+          </figure>
+          <h2>{{ section.settings.title }}</h2>
+        </header>
+
+      {% when 'image '%}
+
+        <header
+          class="product-single-feature__header--image"
+          style="background-image: url('{{ section.settings.image | image_url: width: 500 }}');">
+        </header>
         <h2>{{ section.settings.title }}</h2>
-        {{ section.settings.image | image_url: width: 500 | image_tag }}
-      </header>
 
-      {% if section.blocks.size > 0 %}
-        <div class="product-single-feature-features">
+      {% when 'none' %}
 
-          {% for block in section.blocks %}
-            <div class="product-single-feature-feature">
-              <figure
-                style="
-                  mask: url({{ block.settings.icon | image_url: width: 100 }}) no-repeat 50% 50%;
-                  -webkit-mask: url({{ block.settings.icon | image_url: width: 100 }}) no-repeat 50% 50%;
-                  mask-size: cover;
-                  -webkit-mask-size: cover;">
-              </figure>
-              <div>
-                <h3>{{ block.settings.title }}</h3>
-                {{ block.settings.description }}
-              </div>
-            </div>
-          {% endfor %}
-        </div>
-      {% endif %}
-    </section>
-  </div>
-{% endcomment %}
+        <h2>{{ section.settings.title }}</h2>
+      
+    {% endcase %}
+
+    {{ section.settings.description }}
+
+  </section>
+</div>
 
 {% schema %}
 {
@@ -47,6 +54,10 @@
         {
           "value": "image",
           "label": "t:sections.product-single-feature.settings.header_type.image"
+        },
+        {
+          "value": "none",
+          "label": "t:sections.product-single-feature.settings.header_type.none"
         }
       ],
       "default": "image"

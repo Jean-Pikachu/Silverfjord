@@ -1,5 +1,5 @@
 <div class="page-width">
-  <section class="product-feature-group">
+  <section class="product-block--large product-feature-group">
     <header>
       <h2>{{ section.settings.title }}</h2>
       {{ section.settings.image | image_url: width: 500 | image_tag }}
@@ -12,8 +12,8 @@
           <div class="product-feature-group-feature">
             <figure
               style="
-                mask: url({{ block.settings.icon | image_url: width: 100 }}) no-repeat 50% 50%;
-                -webkit-mask: url({{ block.settings.icon | image_url: width: 100 }}) no-repeat 50% 50%;
+                mask: url({{ block.settings.icon | image_url: width: 50 }}) no-repeat 50% 50%;
+                -webkit-mask: url({{ block.settings.icon | image_url: width: 50 }}) no-repeat 50% 50%;
                 mask-size: cover;
                 -webkit-mask-size: cover;">
             </figure>
