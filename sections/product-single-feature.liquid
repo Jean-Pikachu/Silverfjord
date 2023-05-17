@@ -1,0 +1,84 @@
+{% comment %}
+  <div class="page-width">
+    <section class="product-single-feature">
+      <header>
+        <h2>{{ section.settings.title }}</h2>
+        {{ section.settings.image | image_url: width: 500 | image_tag }}
+      </header>
+
+      {% if section.blocks.size > 0 %}
+        <div class="product-single-feature-features">
+
+          {% for block in section.blocks %}
+            <div class="product-single-feature-feature">
+              <figure
+                style="
+                  mask: url({{ block.settings.icon | image_url: width: 100 }}) no-repeat 50% 50%;
+                  -webkit-mask: url({{ block.settings.icon | image_url: width: 100 }}) no-repeat 50% 50%;
+                  mask-size: cover;
+                  -webkit-mask-size: cover;">
+              </figure>
+              <div>
+                <h3>{{ block.settings.title }}</h3>
+                {{ block.settings.description }}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </section>
+  </div>
+{% endcomment %}
+
+{% schema %}
+{
+  "name": "t:sections.product-single-feature.name",
+  "settings": [
+    {
+      "type": "select",
+      "id": "header_type",
+      "label": "t:sections.product-single-feature.settings.header_type.label",
+      "info": "t:sections.product-single-feature.settings.header_type.info",
+      "options": [
+        {
+          "value": "icon",
+          "label": "t:sections.product-single-feature.settings.header_type.icon"
+        },
+        {
+          "value": "image",
+          "label": "t:sections.product-single-feature.settings.header_type.image"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.product-single-feature.settings.image.label",
+      "info": "t:sections.product-single-feature.settings.image.info"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "t:sections.product-single-feature.settings.color.label",
+      "info": "t:sections.product-single-feature.settings.color.info",
+      "default": "#000000"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.product-single-feature.settings.title"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "t:sections.product-single-feature.settings.description"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.product-single-feature.name"
+    }
+  ]
+}
+{% endschema %}
