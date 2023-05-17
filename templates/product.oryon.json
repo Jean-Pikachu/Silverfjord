@@ -133,7 +133,7 @@
     "b24e53ec-dd6f-4e8d-a1d3-052b70976860": {
       "type": "product-single-feature",
       "settings": {
-        "header_type": "icon",
+        "header_type": "none",
         "image": "shopify:\/\/shop_images\/iconmonstr-battery-10.svg",
         "background_color": "#133bcf",
         "title": "7-15 dagar batteritid",
