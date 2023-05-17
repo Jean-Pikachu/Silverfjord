@@ -17,22 +17,29 @@
       "id": "image",
       "label": "t:sections.product-feature-group.settings.image"
     }
+
   ],
   "blocks": [
     {
-      "type": "image_picker",
-      "id": "icon",
-      "label": "t:sections.product-feature-group.blocks.icon"
-    },
-    {
-      "type": "text",
-      "id": "title",
-      "label": "t:sections.product-feature-group.blocks.title"
-    },
-    {
-      "type": "textarea",
-      "id": "description",
-      "label": "t:sections.product-feature-group.blocks.description"
+      "name": "Feature",
+      "type": "feature",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "t:sections.product-feature-group.blocks.icon"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.product-feature-group.blocks.title"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "t:sections.product-feature-group.blocks.description"
+        }
+      ]
     }
   ],
   "presets": [
