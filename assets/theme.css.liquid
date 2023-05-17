@@ -6903,6 +6903,38 @@ input[type=image]{
 
 /* END of BUY BOX custom code */
 
+/* PRODUCT DESCRIPTION */
+.product-description {
+
+}
+
+.product-description ul {
+  list-style: none;
+}
+
+.product-description ul li {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.product-description ul li:before {
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -28px;
+  top: 0;
+  content: '';
+  mask: url({{ 'ico-checkmark.svg' | asset_url }}) no-repeat 50% 50%;
+  -webkit-mask: url({{ 'ico-checkmark.svg' | asset_url }}) no-repeat 50% 50%;
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  background-color: var(--colorAccent1);
+}
+
+
+/* END of product description */
+
 
 .product-block--header+.product-block--price{
   margin-top:-20px;

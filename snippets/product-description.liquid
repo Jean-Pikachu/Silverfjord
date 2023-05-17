@@ -9,7 +9,7 @@
   {% assign title = 'products.product.description' | t %}
   {%- render 'tab', id: id, title: title, content: description -%}
 {%- else -%}
-  <div class="rte">
+  <div class="rte product-description">
     {{ description }}
   </div>
 {%- endif -%}

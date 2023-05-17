@@ -1574,6 +1574,18 @@
         }
       }
     },
+    "product-feature-group": {
+      "name": "Product feature group",
+      "settings": {
+        "title": "Title",
+        "image": "Header image"
+      },
+      "blocks": {
+        "icon": "Icon",
+        "title": "Title",
+        "description": "Description"
+      }
+    },
     "product-recommendations": {
       "name": "Product recommendations",
       "settings": {
