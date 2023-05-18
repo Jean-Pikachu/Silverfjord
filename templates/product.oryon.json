@@ -52,12 +52,6 @@
             "bottomPadding": "0"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
-          }
-        },
         "tab": {
           "type": "tab",
           "settings": {
@@ -74,7 +68,6 @@
         "variant_picker",
         "buy_buttons",
         "fef961fd-f8d9-4a4a-9e05-04d7e37eb1e9",
-        "description",
         "tab"
       ],
       "custom_css": [
@@ -181,7 +174,7 @@
     "640d0131-080f-4aa9-aa01-3e3f0a8d31c4": {
       "type": "product-single-feature",
       "settings": {
-        "header_type": "none",
+        "header_type": "image",
         "image": "shopify:\/\/shop_images\/anpassningsbar.jpg",
         "background_color": "#000000",
         "title": "Fullt anpassningsbar",
