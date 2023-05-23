@@ -1,6 +1,6 @@
-<div class="page-width">
+<div class="page-width page-width--narrow">
   <section 
-    class="product-block--large product-single-feature"
+    class="product-block--large product-single-feature {% if section.settings.header_type == 'image' %} product-single-feature--has-image-header {% endif %}"
     style="background-color: {{ section.settings.background_color }}">
   
     {% case section.settings.header_type %}
@@ -17,22 +17,25 @@
           </figure>
           <h2>{{ section.settings.title }}</h2>
         </header>
+        {{ section.settings.description }}
 
       {% when 'image' %}
 
         <header
-          class="product-single-feature__header--image"
+          class="product-single-feature__header"
           style="background-image: url('{{ section.settings.image | image_url: width: 500 }}');">
         </header>
-        <h2>{{ section.settings.title }}</h2>
+        <div>
+          <h2>{{ section.settings.title }}</h2>
+          {{ section.settings.description }}
+        </div>
 
       {% when 'none' %}
 
         <h2>{{ section.settings.title }}</h2>
+        {{ section.settings.description }}
       
     {% endcase %}
-
-    {{ section.settings.description }}
 
   </section>
 </div>

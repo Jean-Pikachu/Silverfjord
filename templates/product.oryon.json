@@ -49,7 +49,13 @@
             "locale_fallback": "sv-SE",
             "theme": "light",
             "topPadding": "0",
-            "bottomPadding": "0"
+            "bottomPadding": "25"
+          }
+        },
+        "000ee03c-82d0-45f4-956f-c9f04fbc25d6": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
           }
         },
         "tab": {
@@ -58,12 +64,6 @@
             "title": "Frakt och retur",
             "content": "<p>Vi erbjuder en 30-dagars garanti, du kan få full återbetalning om du inte är nöjd. <\/p><p>Din beställning behandlas inom 24 timmar, leverans tar upp till 8 till 12 arbetsdagar.<\/p>",
             "page": ""
-          }
-        },
-        "000ee03c-82d0-45f4-956f-c9f04fbc25d6": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
           }
         }
       },
@@ -74,8 +74,8 @@
         "variant_picker",
         "buy_buttons",
         "fef961fd-f8d9-4a4a-9e05-04d7e37eb1e9",
-        "tab",
-        "000ee03c-82d0-45f4-956f-c9f04fbc25d6"
+        "000ee03c-82d0-45f4-956f-c9f04fbc25d6",
+        "tab"
       ],
       "custom_css": [
         "h2 {margin-top: 25px; margin-bottom: 20px;}"
@@ -181,7 +181,7 @@
     "640d0131-080f-4aa9-aa01-3e3f0a8d31c4": {
       "type": "product-single-feature",
       "settings": {
-        "header_type": "image",
+        "header_type": "none",
         "image": "shopify:\/\/shop_images\/anpassningsbar.jpg",
         "background_color": "#000000",
         "title": "Fullt anpassningsbar",
@@ -343,6 +343,16 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "b24e53ec-dd6f-4e8d-a1d3-052b70976860": {
+      "type": "product-single-feature",
+      "settings": {
+        "header_type": "icon",
+        "image": "shopify:\/\/shop_images\/iconmonstr-battery-10.svg",
+        "background_color": "#133bcf",
+        "title": "7-15 dagar batteritid",
+        "description": "<p>Efter full laddning — 2 timmer — räcker kockans batter i 7 dagar vid normal användning eller upp till 15 dagar i standby-läge.<\/p><p>450-mAh batteri med stor kapacitet, använd vårt patenterade Ultra-low power intelligent chip.<\/p>"
+      }
     }
   },
   "order": [
@@ -359,6 +369,7 @@
     "collection-return",
     "9e3a54af-3593-4d61-a275-9f9bbbd15bef",
     "16833003058d1c4a42",
-    "1683300312aa8c2a44"
+    "1683300312aa8c2a44",
+    "b24e53ec-dd6f-4e8d-a1d3-052b70976860"
   ]
 }
