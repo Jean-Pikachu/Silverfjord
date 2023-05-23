@@ -49,7 +49,13 @@
             "locale_fallback": "sv-SE",
             "theme": "light",
             "topPadding": "0",
-            "bottomPadding": "0"
+            "bottomPadding": "25"
+          }
+        },
+        "000ee03c-82d0-45f4-956f-c9f04fbc25d6": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
           }
         },
         "tab": {
@@ -58,12 +64,6 @@
             "title": "Frakt och retur",
             "content": "<p>Vi erbjuder en 30-dagars garanti, du kan få full återbetalning om du inte är nöjd. <\/p><p>Din beställning behandlas inom 24 timmar, leverans tar upp till 8 till 12 arbetsdagar.<\/p>",
             "page": ""
-          }
-        },
-        "000ee03c-82d0-45f4-956f-c9f04fbc25d6": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
           }
         }
       },
@@ -74,8 +74,8 @@
         "variant_picker",
         "buy_buttons",
         "fef961fd-f8d9-4a4a-9e05-04d7e37eb1e9",
-        "tab",
-        "000ee03c-82d0-45f4-956f-c9f04fbc25d6"
+        "000ee03c-82d0-45f4-956f-c9f04fbc25d6",
+        "tab"
       ],
       "custom_css": [
         "h2 {margin-top: 25px; margin-bottom: 20px;}"
