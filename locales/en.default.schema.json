@@ -1609,6 +1609,18 @@
         "description": "Description"
       }
     },
+    "product-faq": {
+      "name": "FAQ",
+      "settings": {
+        "title": "Title",
+        "default": "FAQ"
+      },
+      "blocks": {
+        "name": "Question",
+        "question": "Question",
+        "answer": "Answer"
+      }
+    },
     "product-recommendations": {
       "name": "Product recommendations",
       "settings": {

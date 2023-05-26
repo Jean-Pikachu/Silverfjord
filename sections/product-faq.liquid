@@ -1,0 +1,64 @@
+<div class="page-width page-width--narrow">
+  <section class="product-block--large product-faq-section">
+    <header>
+      <h2>{{ section.settings.title }}</h2>
+    </header>
+
+    {% if section.blocks.size > 0 %}
+        <ul class="product-faq-list">
+            {% for block in section.blocks %}
+                <li class="product-faq-element">
+                    <header>
+                        <h3>{{ block.settings.question }}</h3>
+                        <div class="product-faq-element__icon">
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </header>
+                    <div>
+                        {{ block.settings.answer }}
+                    </div>
+                </li>
+            {% endfor %}
+            
+        </div>
+    {% endif %}
+  </section>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.product-faq.name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.product-faq.settings.title",
+      "default": "t:sections.product-faq.settings.default"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "t:sections.product-faq.blocks.name",
+      "type": "question",
+      "settings": [
+        {
+          "type": "text",
+          "id": "questoin",
+          "label": "t:sections.product-faq.blocks.question"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "t:sections.product-faq.blocks.answer"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.product-faq.name"
+    }
+  ]
+}
+{% endschema %}
