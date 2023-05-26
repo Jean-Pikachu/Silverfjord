@@ -299,6 +299,64 @@
         "divider": false
       }
     },
+    "1e0f47f9-8e7e-4dbe-a700-16434cc77213": {
+      "type": "faq",
+      "blocks": {
+        "template--18948939186507__1e0f47f9-8e7e-4dbe-a700-16434cc77213-16851044385956e513-0": {
+          "type": "question",
+          "settings": {
+            "title": "Är Oryon™-klockan vattentälig?",
+            "text": "<p>Klockan är stänktålig, men öronsnäckorna är inte det. Efter varje kontakt med vatten eller fukt ska du ta bort öronsnäckorna och låta dem torka.<\/p>"
+          }
+        },
+        "template--18948939186507__1e0f47f9-8e7e-4dbe-a700-16434cc77213-16851044385956e513-1": {
+          "type": "question",
+          "settings": {
+            "title": "Är det möjligt att ringa och ta emot samtal?",
+            "text": "<p>Ja, Oryon™ klockan har möjlighet att ringa och ta emot samtal.<\/p>"
+          }
+        },
+        "b53ab5a0-b929-4d87-9788-717e9dcfe467": {
+          "type": "question",
+          "settings": {
+            "title": "Har den stöd för att ta emot meddelanden från sociala programvaror?",
+            "text": "<p>Ja, du kan ta emot meddelanden från Facebook, Twitter och andra sociala applikationer.<\/p>"
+          }
+        },
+        "e8997c0b-acb5-43b6-a80c-7895f6f48f2e": {
+          "type": "question",
+          "settings": {
+            "title": "Fungerar den tillsammans med min telefon?",
+            "text": "<p>Ja, Android 4.4 och senare versioner eller iOs 8.0 och senare versioner.<\/p>"
+          }
+        },
+        "000370c7-c25d-4557-b67c-67215f22695d": {
+          "type": "question",
+          "settings": {
+            "title": "Vilken applikation bör användas för att koppla den till min telefon?",
+            "text": "<p>Ladda ner applikationen Vband från din enhets appbutik.<\/p>"
+          }
+        },
+        "6db6dbdf-e421-4c45-b3ef-94cbb9ce3fc1": {
+          "type": "question",
+          "settings": {
+            "title": "Finns det en funktion för röstassistans?",
+            "text": "<p>Ja.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18948939186507__1e0f47f9-8e7e-4dbe-a700-16434cc77213-16851044385956e513-0",
+        "template--18948939186507__1e0f47f9-8e7e-4dbe-a700-16434cc77213-16851044385956e513-1",
+        "b53ab5a0-b929-4d87-9788-717e9dcfe467",
+        "e8997c0b-acb5-43b6-a80c-7895f6f48f2e",
+        "000370c7-c25d-4557-b67c-67215f22695d",
+        "6db6dbdf-e421-4c45-b3ef-94cbb9ce3fc1"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
+    },
     "16833003058d1c4a42": {
       "type": "apps",
       "blocks": {
@@ -358,6 +416,7 @@
     "ac1238ac-7122-41fc-a213-8a971a9456dc",
     "collection-return",
     "9e3a54af-3593-4d61-a275-9f9bbbd15bef",
+    "1e0f47f9-8e7e-4dbe-a700-16434cc77213",
     "16833003058d1c4a42",
     "1683300312aa8c2a44"
   ]
