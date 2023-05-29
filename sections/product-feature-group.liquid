@@ -1,3 +1,5 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
 <div class="page-width page-width--narrow">
   <section class="product-block--large product-feature-group">
     <header>
@@ -27,6 +29,8 @@
     {% endif %}
   </section>
 </div>
+
+{%- if section.settings.divider -%}</div>{%- endif -%}
 
 {% schema %}
 {

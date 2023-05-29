@@ -1934,7 +1934,7 @@ button[disabled],html input[disabled]{
   min-width:90px;
   vertical-align:middle;
   cursor:pointer;
-  /* border:1px solid transparent; */
+  border:1px solid transparent;
   -webkit-user-select:none;
           user-select:none;
   -webkit-appearance:none;
@@ -5974,6 +5974,38 @@ form+.footer__social{
     transform:translate(-50%, -50%);
   }
 
+/* COLLAPSIBLE PLUS ICON: CUSTOM */
+.faq .collapsible-trigger {
+  padding: 11px 40px 11px 0;
+  width: 100%;
+}
+
+.collapsible-trigger__icon--plus {
+  right: 10px !important;
+  left: auto !important;
+}
+
+.collapsible-trigger__icon--plus div {
+  width: 20px;
+  height: 5px;
+  background-color: var(--colorTextBody);
+}
+
+.collapsible-trigger__icon--plus div:first-child {
+  transform: rotateZ(90deg);
+  position: absolute;
+  transition: transform .3s;
+}
+
+.faq .collapsible-trigger.is-open .collapsible-trigger__icon--plus div:first-child {
+  transform: rotateZ(0deg);
+}
+
+.collapsible-trigger__icon--plus div:last-child {
+
+}
+/* END of collapsible plus icon */
+
 .collapsible-trigger.is-open .collapsible-trigger__icon>.icon-chevron-down{
   transform:scaleY(-1);
 }
@@ -7086,6 +7118,34 @@ input[type=image]{
 
 
 /* FAQ SECTION */
+/* 
+  Everything in regards to the plus icon, is written among the other collapsible icon code 
+  This is everything else regarding the section
+*/
+.faq {
+  border: 1px solid var(--colorTextBody);
+  border-radius: var(--imageRadius);
+}
+
+.faq h2 {
+  padding: var(--grid-gutter);
+  border-bottom: 1px solid var(--colorBorder);
+}
+
+/* The question container */
+.faq > div {
+  padding: 0 var(--grid-gutter);
+  border-bottom: 1px solid var(--colorBorder);
+}
+
+.faq > div:last-child {
+  border-bottom: none;
+}
+
+/* The question text */
+.faq .collapsible-trigger span:first-child {
+  font-weight: bold;
+}
 
 /* END of faq section */
 
