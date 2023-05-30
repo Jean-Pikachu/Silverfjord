@@ -1,1 +1,181 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slideshow-0":{"type":"image","settings":{"top_subheading":"","title":"STIL MÖTER TEKNOLOGI","title_size":61,"subheading":"Upptäck vårt urval av innovativa smartklockor på Silverfjord™","link":"shopify:\/\/collections\/smarwatches","link_text":"Upptäck nu","link_2":"","link_text_2":"","color_accent":"#000000","text_align":"vertical-center horizontal-center","image":"shopify:\/\/shop_images\/HomeAurore.png","image_mobile":"shopify:\/\/shop_images\/HomeAurore.png","overlay_opacity":12,"focal_point":"top center"}}},"block_order":["slideshow-0"],"settings":{"section_height":"100vh","mobile_height":"300px","parallax":false,"style":"dots","autoplay":false,"autoplay_speed":5}},"fa0bf8af-5d93-4553-91d6-5dac2d16cf2b":{"type":"featured-collection","custom_css":[],"settings":{"title":"Utforska vårt utbud av smartklockor","home_featured_products":"smarwatches","per_row":4,"rows":1,"mobile_scrollable":true,"view_all":false,"divider":false}},"1d392865-549d-4842-a73b-443adcc0a5dd":{"type":"text-with-icons","blocks":{"template--16939604017438__1d392865-549d-4842-a73b-443adcc0a5dd-1668770407df63d467-1":{"type":"text_block","settings":{"icon":"package","title":"Säker leverans","text":"<p>Vi har redan levererat till hundratals kunder runt om i landet och våra beställningar behandlas inom 24 timmar från beställningen.<\/p>"}},"template--16939604017438__1d392865-549d-4842-a73b-443adcc0a5dd-1668770407df63d467-0":{"type":"text_block","settings":{"icon":"ribbon","title":"Material av hög kvalitet","text":"<p>Våra produkter är tillverkade av högkvalitativa material. De är noggrant utvalda på grund av sin höga hållbarhet.<\/p>"}},"template--16939604017438__1d392865-549d-4842-a73b-443adcc0a5dd-1668770407df63d467-2":{"type":"text_block","settings":{"icon":"shield","title":"100% nöjdhet!","text":"<p>Kundnöjdhet är vår prioritet. Vi erbjuder en 30-dagars garanti på alla beställningar för att ge dig den bästa shoppingupplevelsen.<\/p>"}}},"block_order":["template--16939604017438__1d392865-549d-4842-a73b-443adcc0a5dd-1668770407df63d467-1","template--16939604017438__1d392865-549d-4842-a73b-443adcc0a5dd-1668770407df63d467-0","template--16939604017438__1d392865-549d-4842-a73b-443adcc0a5dd-1668770407df63d467-2"],"settings":{"title":"","align_text":"center","desktop_columns_per_row":3,"icon_color":"#000000","button_label":"","button_link":"","divider":false}},"fbda4adf-ef9f-4ed4-9ce9-eaa2544af936":{"type":"rich-text","blocks":{"template--17697513210172__fbda4adf-ef9f-4ed4-9ce9-eaa2544af936-1683211090b40bed2a-0":{"type":"heading","settings":{"title":"Redan hundratals nöjda kunder !"}}},"block_order":["template--17697513210172__fbda4adf-ef9f-4ed4-9ce9-eaa2544af936-1683211090b40bed2a-0"],"settings":{"align_text":"center","narrow_column":true,"divider":false}},"167973653934652348":{"type":"apps","blocks":{"f882cae9-8b3a-4e41-be15-65e90e1f75bb":{"type":"shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","settings":{"maxWidth":1100,"borderRadius":8,"itemsPerView":4,"maxNumberOfCharacters":100,"imageRatio":"0.72","reviewerNameColor":"#000000","textColor":"#000000","itemBackgroundColor":"#ffffff","starsColor":"","starsBackgroundColor":"#ffffff","arrows_backgroundColor":"#FFFFFF","arrows_iconColor":"#9A9A9A","shadow":"offset-dark","border_active":false,"border_width":2,"border_color":"#000000","productIds":""}}},"block_order":["f882cae9-8b3a-4e41-be15-65e90e1f75bb"],"settings":{"full_width":false,"space_around":false}},"efd5b960-cc0c-418a-8289-96d01b4883d0":{"type":"rich-text","blocks":{"0411e6bb-3f5b-4908-999c-10d626607f4c":{"type":"button","settings":{"link":"shopify:\/\/products\/oryon-smartklocka","link_text":"Se fler recensioner"}}},"block_order":["0411e6bb-3f5b-4908-999c-10d626607f4c"],"custom_css":[".btn {color: white; background: black;}"],"settings":{"align_text":"center","narrow_column":true,"divider":false}}},"order":["slideshow","fa0bf8af-5d93-4553-91d6-5dac2d16cf2b","1d392865-549d-4842-a73b-443adcc0a5dd","fbda4adf-ef9f-4ed4-9ce9-eaa2544af936","167973653934652348","efd5b960-cc0c-418a-8289-96d01b4883d0"]}
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "STIL MÖTER TEKNOLOGI",
+            "title_size": 61,
+            "subheading": "Upptäck vårt urval av innovativa smartklockor på Silverfjord™",
+            "link": "shopify:\/\/collections\/smartklockor",
+            "link_text": "Upptäck nu",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/HomeAurore.png",
+            "image_mobile": "shopify:\/\/shop_images\/HomeAurore.png",
+            "overlay_opacity": 12,
+            "focal_point": "top center"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "section_height": "100vh",
+        "mobile_height": "300px",
+        "parallax": false,
+        "style": "dots",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "fa0bf8af-5d93-4553-91d6-5dac2d16cf2b": {
+      "type": "featured-collection",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "Utforska vårt utbud av smartklockor",
+        "home_featured_products": "smartklockor",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "1d392865-549d-4842-a73b-443adcc0a5dd": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--16939604017438__1d392865-549d-4842-a73b-443adcc0a5dd-1668770407df63d467-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "Säker leverans",
+            "text": "<p>Vi har redan levererat till hundratals kunder runt om i landet och våra beställningar behandlas inom 24 timmar från beställningen.<\/p>"
+          }
+        },
+        "template--16939604017438__1d392865-549d-4842-a73b-443adcc0a5dd-1668770407df63d467-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "ribbon",
+            "title": "Material av hög kvalitet",
+            "text": "<p>Våra produkter är tillverkade av högkvalitativa material. De är noggrant utvalda på grund av sin höga hållbarhet.<\/p>"
+          }
+        },
+        "template--16939604017438__1d392865-549d-4842-a73b-443adcc0a5dd-1668770407df63d467-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shield",
+            "title": "100% nöjdhet!",
+            "text": "<p>Kundnöjdhet är vår prioritet. Vi erbjuder en 30-dagars garanti på alla beställningar för att ge dig den bästa shoppingupplevelsen.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16939604017438__1d392865-549d-4842-a73b-443adcc0a5dd-1668770407df63d467-1",
+        "template--16939604017438__1d392865-549d-4842-a73b-443adcc0a5dd-1668770407df63d467-0",
+        "template--16939604017438__1d392865-549d-4842-a73b-443adcc0a5dd-1668770407df63d467-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "fbda4adf-ef9f-4ed4-9ce9-eaa2544af936": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17697513210172__fbda4adf-ef9f-4ed4-9ce9-eaa2544af936-1683211090b40bed2a-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Redan hundratals nöjda kunder !"
+          }
+        }
+      },
+      "block_order": [
+        "template--17697513210172__fbda4adf-ef9f-4ed4-9ce9-eaa2544af936-1683211090b40bed2a-0"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "167973653934652348": {
+      "type": "apps",
+      "blocks": {
+        "f882cae9-8b3a-4e41-be15-65e90e1f75bb": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#FFFFFF",
+            "arrows_iconColor": "#9A9A9A",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "f882cae9-8b3a-4e41-be15-65e90e1f75bb"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "efd5b960-cc0c-418a-8289-96d01b4883d0": {
+      "type": "rich-text",
+      "blocks": {
+        "0411e6bb-3f5b-4908-999c-10d626607f4c": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/products\/oryon-smartklocka",
+            "link_text": "Se fler recensioner"
+          }
+        }
+      },
+      "block_order": [
+        "0411e6bb-3f5b-4908-999c-10d626607f4c"
+      ],
+      "custom_css": [
+        ".btn {color: white; background: black;}"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "fa0bf8af-5d93-4553-91d6-5dac2d16cf2b",
+    "1d392865-549d-4842-a73b-443adcc0a5dd",
+    "fbda4adf-ef9f-4ed4-9ce9-eaa2544af936",
+    "167973653934652348",
+    "efd5b960-cc0c-418a-8289-96d01b4883d0"
+  ]
+}
