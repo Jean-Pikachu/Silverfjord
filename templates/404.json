@@ -1,1 +1,25 @@
-{"sections":{"main":{"type":"main-404","settings":{}},"featured-collection":{"type":"featured-collection","settings":{"title":"Populära produkter","home_featured_products":"smarwatches","per_row":4,"rows":1,"mobile_scrollable":true,"view_all":false,"divider":false}}},"order":["main","featured-collection"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "settings": {
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Populära produkter",
+        "home_featured_products": "smartklockor",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured-collection"
+  ]
+}
