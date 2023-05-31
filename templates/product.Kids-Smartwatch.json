@@ -3,20 +3,61 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "loox-rating": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
           }
         },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false
+          }
+        },
         "separator": {
           "type": "separator",
-          "disabled": true,
           "settings": {
+          }
+        },
+        "2dcd27fd-cb21-44c4-8e89-2e3b078ab95d": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 6,
+            "inventory_transfers_enable": true
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "Fri leverans i Sverige"
+          }
+        },
+        "ea1363a6-f5f0-40cb-806d-66b0531401f9": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "Ta emot och skicka meddelanden"
+          }
+        },
+        "7c64dec8-7458-4b73-9cda-a92b04fcd74a": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "Integrert kamera"
+          }
+        },
+        "46ee9a03-8bcc-4a33-8cfd-2f0f376a23a2": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "GPS tracking"
           }
         },
         "variant_picker": {
@@ -27,31 +68,17 @@
             "color_swatches": false
           }
         },
-        "4cc110f5-1194-4357-bb1d-a691c932e4af": {
-          "type": "inventory_status",
-          "settings": {
-            "inventory_threshold": 10,
-            "inventory_transfers_enable": true
-          }
-        },
-        "sales_point": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "gift",
-            "text": "Gratis leverans i Sverige 🇸🇪"
-          }
-        },
-        "a97937f0-34da-4f66-8021-d1395e5cead0": {
+        "29233f0e-5bbe-45b4-bd04-44885a7334ba": {
           "type": "quantity_selector",
           "settings": {
           }
         },
-        "fef961fd-f8d9-4a4a-9e05-04d7e37eb1e9": {
+        "9980d221-b4fe-4235-b9cb-89a058989feb": {
           "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
           "settings": {
-            "data_key": "top-strip-promotion-badge",
-            "locale_option": "manual",
-            "locale_fallback": "sv-SE",
+            "data_key": "credit-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
             "theme": "light",
             "topPadding": "0",
             "bottomPadding": "0"
@@ -61,11 +88,12 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
-            "surface_pickup_enable": false,
-            "sales_point_icon_1": "shopify:\/\/shop_images\/shipping-box.svg",
-            "sales_point_text_1": "Gratis leverans i Sverige 🇸🇪",
-            "sales_point_icon_2": "shopify:\/\/shop_images\/shipping-returns.svg",
-            "sales_point_text_2": "30 dagars öppet köp"
+            "surface_pickup_enable": true,
+            "sales_point_show_inventory_status": false,
+            "sales_point_inventory_threshold": 10,
+            "sales_point_text_1": "",
+            "sales_point_text_2": "",
+            "payment_provider_logos": ""
           }
         },
         "description": {
@@ -77,27 +105,27 @@
         "tab": {
           "type": "tab",
           "settings": {
-            "title": "Frakt och retur",
-            "content": "<p>Vi erbjuder en 30-dagars garanti, du kan få full återbetalning om du inte är nöjd. <\/p><p>Din beställning behandlas inom 24 timmar, leverans tar upp till 8 till 12 arbetsdagar.<\/p>",
+            "title": "Frakt og retur",
+            "content": "<p>Vi tilbyr en 30-dagers garanti, du kan få full refusjon hvis du ikke er fornøyd.<\/p><p>Bestillingen din behandles innen 24 timer, levering tar opptil 8 til 12 virkedager.<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "loox-rating",
         "price",
+        "loox-rating",
         "separator",
-        "variant_picker",
-        "4cc110f5-1194-4357-bb1d-a691c932e4af",
+        "2dcd27fd-cb21-44c4-8e89-2e3b078ab95d",
         "sales_point",
-        "a97937f0-34da-4f66-8021-d1395e5cead0",
-        "fef961fd-f8d9-4a4a-9e05-04d7e37eb1e9",
+        "ea1363a6-f5f0-40cb-806d-66b0531401f9",
+        "7c64dec8-7458-4b73-9cda-a92b04fcd74a",
+        "46ee9a03-8bcc-4a33-8cfd-2f0f376a23a2",
+        "variant_picker",
+        "29233f0e-5bbe-45b4-bd04-44885a7334ba",
+        "9980d221-b4fe-4235-b9cb-89a058989feb",
         "buy_buttons",
         "description",
         "tab"
-      ],
-      "custom_css": [
-        "h2 {margin-top: 25px; margin-bottom: 20px;}"
       ],
       "settings": {
         "sku_enable": false,
@@ -134,6 +162,114 @@
         "recent_count": 2
       }
     },
+    "99959fc4-f964-4e3c-be04-b55cb0bfed87": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "GPS-sporing i sanntid",
+        "text": "<p>Avansert GPS, WiFi og GSM hjelper foreldre med å spore barna nøyaktig og enkelt. Barnets reisehistorikk blir registrert ved hvert angitt tidspunkt.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "d195c49c-ddd8-421e-94a6-476d91a09063": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "",
+        "text": "<h2>Kommuniser med barna dine<\/h2><p>Med 2G-simkortet kan du kommunisere i sanntid med foreldrenes smarttelefoner og andre kontakter. Send talemeldinger og emojis til dine nærmeste. Bør kun brukes med et nano-sim-kort.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "aa157fc1-ffb2-45eb-94e5-755f697490fe": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Fokusmodus",
+        "text": "<p>Smartklokken kan stilles på lydløs på et bestemt tidspunkt eller en bestemt dag for å minimere distraksjoner i klassemodus. Kun SOS kan brukes ved aktivering. Perfekt for at barna skal kunne holde fokus på skolearbeidet eller studiene.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "ab5b6242-7a32-4418-94c2-50b576046d59": {
+      "type": "faq",
+      "blocks": {
+        "template--19012597940560__ab5b6242-7a32-4418-94c2-50b576046d59-16855311745e89ebd7-0": {
+          "type": "question",
+          "settings": {
+            "title": "Er Smarwtach sprutsikker?",
+            "text": "<p>Ja, den er sprut- og støvtett i henhold til IP67. Det betyr at den tåler små vannsprut som regn og svette. Ikke senk den ned i vann.<\/p>"
+          }
+        },
+        "template--19012597940560__ab5b6242-7a32-4418-94c2-50b576046d59-16855311745e89ebd7-1": {
+          "type": "question",
+          "settings": {
+            "title": "Hvilket SIM-kort bør brukes til GPS-sporing?",
+            "text": "<p>Alle SIM-kort som er kompatible med 2G. Størrelsen på SIM-kortet bør være nano-sim.<\/p>"
+          }
+        },
+        "a9704090-3abf-4b41-9a36-93e87db39d3c": {
+          "type": "question",
+          "settings": {
+            "title": "Kan klockan ta emot meddelanden från min telefon?",
+            "text": "<p>Du kan skicka och ta emot meddelanden med vilken IOS 8.0 eller Android 4.4-telefon som helst.<\/p>"
+          }
+        },
+        "c28ad170-c5b2-4ccd-8f81-26200fa317e1": {
+          "type": "question",
+          "settings": {
+            "title": "Hvilket program er aktuelt for å bruke den med telefonen min?",
+            "text": "<p>- Last ned programmet SeTracker 2 fra enhetens app store<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19012597940560__ab5b6242-7a32-4418-94c2-50b576046d59-16855311745e89ebd7-0",
+        "template--19012597940560__ab5b6242-7a32-4418-94c2-50b576046d59-16855311745e89ebd7-1",
+        "a9704090-3abf-4b41-9a36-93e87db39d3c",
+        "c28ad170-c5b2-4ccd-8f81-26200fa317e1"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
+    },
+    "4176a9fb-22a7-4546-ad92-67fe9750acc8": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "One-Touch SOS",
+        "text": "<p>Send nødsignaler via SOS-funksjonen. Når den er aktivert, vil foreldrene motta et varsel om hvor barnet befinner seg og et 30 sekunder langt liveopptak av lydene i omgivelsene. Start dagen med ro i sinnet!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
     "ac1238ac-7122-41fc-a213-8a971a9456dc": {
       "type": "text-with-icons",
       "blocks": {
@@ -141,24 +277,24 @@
           "type": "text_block",
           "settings": {
             "icon": "package",
-            "title": "Säker leverans",
-            "text": "<p>Vi har redan levererat till hundratals kunder runt om i landet och våra <br\/>beställningar behandlas inom 24 timmar från beställningen.<\/p>"
+            "title": "Trygg levering",
+            "text": "<p>Vi har allerede sendt til hundrevis av kunder over hele landet, våre bestillinger behandles innen 24 timer etter bestilling.<\/p>"
           }
         },
         "template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-1": {
           "type": "text_block",
           "settings": {
             "icon": "ribbon",
-            "title": "Material av hög kvalitet",
-            "text": "<p>Våra produkter är tillverkade av högkvalitativa material. De är noggrant utvalda på grund av sin höga hållbarhet.<\/p>"
+            "title": "Materialer av høy kvalitet",
+            "text": "<p>Våre produkter er laget med materialer av høy kvalitet.. De er nøye utvalgt på grunn av høy holdbarhet.<\/p>"
           }
         },
         "template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-2": {
           "type": "text_block",
           "settings": {
             "icon": "shield",
-            "title": "100% nöjdhet!",
-            "text": "<p>Kundnöjdhet är vår prioritet. Vi erbjuder en 30-dagars garanti på alla <br\/>beställningar för att ge dig den bästa shoppingupplevelsen.<\/p>"
+            "title": "100% fornøyd!",
+            "text": "<p>Kundetilfredshet er vår prioritet. Vi tilbyr en 30-dagers garanti på alle bestillinger, for å gi deg den beste shoppingopplevelsen.<\/p>"
           }
         }
       },
@@ -177,74 +313,38 @@
         "divider": false
       }
     },
-    "collection-return": {
-      "type": "collection-return",
-      "disabled": true,
-      "settings": {
-      }
-    },
-    "9e3a54af-3593-4d61-a275-9f9bbbd15bef": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17697514586428__9e3a54af-3593-4d61-a275-9f9bbbd15bef-16833004299ba9056f-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Redan hundratals nöjda kunder !"
-          }
-        }
-      },
-      "block_order": [
-        "template--17697514586428__9e3a54af-3593-4d61-a275-9f9bbbd15bef-16833004299ba9056f-0"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "16833003058d1c4a42": {
+    "loox-product-reviews-app-section": {
       "type": "apps",
       "blocks": {
-        "16243e11-3258-4947-830e-e3cd213fad82": {
+        "loox-product-reviews": {
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "aggregated": false,
-            "limit": 12,
+            "limit": 5,
             "hide_thumbnails": false,
             "maxwidth": 1080
           }
         }
       },
       "block_order": [
-        "16243e11-3258-4947-830e-e3cd213fad82"
+        "loox-product-reviews"
       ],
       "settings": {
         "full_width": false,
         "space_around": true
       }
     },
-    "1683300312aa8c2a44": {
-      "type": "apps",
-      "blocks": {
-        "6998545d-e314-4753-aa81-324c387a5819": {
-          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
-          "settings": {
-            "data_key": "homepage-promotion-wide",
-            "locale_option": "manual",
-            "locale_fallback": "sv-SE",
-            "theme": "light",
-            "topPadding": "0",
-            "bottomPadding": "0"
-          }
-        }
-      },
-      "block_order": [
-        "6998545d-e314-4753-aa81-324c387a5819"
-      ],
+    "ccdec54b-ecbf-47d1-85c3-0319829d53bf": {
+      "type": "featured-collection",
       "settings": {
-        "full_width": false,
-        "space_around": true
+        "title": "Våre andre klokker",
+        "home_featured_products": "klokker",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
       }
     }
   },
@@ -253,10 +353,14 @@
     "sub",
     "product-recommendations",
     "recently-viewed",
-    "ac1238ac-7122-41fc-a213-8a971a9456dc",
+    "99959fc4-f964-4e3c-be04-b55cb0bfed87",
+    "d195c49c-ddd8-421e-94a6-476d91a09063",
     "collection-return",
-    "9e3a54af-3593-4d61-a275-9f9bbbd15bef",
-    "16833003058d1c4a42",
-    "1683300312aa8c2a44"
+    "aa157fc1-ffb2-45eb-94e5-755f697490fe",
+    "ab5b6242-7a32-4418-94c2-50b576046d59",
+    "4176a9fb-22a7-4546-ad92-67fe9750acc8",
+    "ac1238ac-7122-41fc-a213-8a971a9456dc",
+    "loox-product-reviews-app-section",
+    "ccdec54b-ecbf-47d1-85c3-0319829d53bf"
   ]
 }
