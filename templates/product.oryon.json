@@ -401,6 +401,22 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "3510cbd8-0e41-436f-973b-f77f81d23d7f": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SilverFjordArtboard3copy.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -418,6 +434,7 @@
     "collection-return",
     "9e3a54af-3593-4d61-a275-9f9bbbd15bef",
     "16833003058d1c4a42",
-    "1683300312aa8c2a44"
+    "1683300312aa8c2a44",
+    "3510cbd8-0e41-436f-973b-f77f81d23d7f"
   ]
 }
