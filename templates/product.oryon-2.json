@@ -1,1 +1,222 @@
-{"sections":{"main":{"type":"main-product","blocks":{"loox-rating":{"type":"shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","settings":{}},"price":{"type":"price","settings":{}},"separator":{"type":"separator","disabled":true,"settings":{}},"variant_picker":{"type":"variant_picker","settings":{"variant_labels":true,"picker_type":"button","color_swatches":false}},"4cc110f5-1194-4357-bb1d-a691c932e4af":{"type":"inventory_status","settings":{"inventory_threshold":10,"inventory_transfers_enable":true}},"sales_point":{"type":"sales_point","settings":{"icon":"checkmark","text":"Gratis leverans i Sverige 🇸🇪"}},"a97937f0-34da-4f66-8021-d1395e5cead0":{"type":"quantity_selector","settings":{}},"fef961fd-f8d9-4a4a-9e05-04d7e37eb1e9":{"type":"shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e","settings":{"data_key":"top-strip-promotion-badge","locale_option":"manual","locale_fallback":"","theme":"light","topPadding":"0","bottomPadding":"0"}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false,"surface_pickup_enable":false}},"description":{"type":"description","settings":{"is_tab":false}},"tab":{"type":"tab","settings":{"title":"Frakt och retur","content":"<p>Vi erbjuder en 30-dagars garanti, du kan få full återbetalning om du inte är nöjd. <\/p><p>Din beställning behandlas inom 24 timmar, leverans tar upp till 8 till 12 arbetsdagar.<\/p>","page":""}}},"block_order":["loox-rating","price","separator","variant_picker","4cc110f5-1194-4357-bb1d-a691c932e4af","sales_point","a97937f0-34da-4f66-8021-d1395e5cead0","fef961fd-f8d9-4a4a-9e05-04d7e37eb1e9","buy_buttons","description","tab"],"settings":{"sku_enable":false,"image_position":"left","image_size":"medium","product_zoom_enable":true,"thumbnail_position":"beside","thumbnail_arrows":false,"mobile_layout":"full","enable_video_looping":true,"product_video_style":"muted"}},"4d5d74ac-03a0-4972-b10e-ac93cddd27c3":{"type":"background-image-text","settings":{"subtitle":"Impressive","title":"Large image with text box","text":"<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>","button_label":"","button_link":"","image":"shopify:\/\/shop_images\/Functions.webp","focal_point":"center","layout":"left","height":550,"framed":false,"parallax":false}},"0ce06143-05cc-4f0b-a091-6a5931aebe5b":{"type":"background-image-text","settings":{"subtitle":"Impressive","title":"Large image with text box","text":"<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>","button_label":"","button_link":"","image":"shopify:\/\/shop_images\/Earbuds.webp","focal_point":"center","layout":"left","height":550,"framed":false,"parallax":false}},"4d4a4cab-3203-4261-b469-8e6d9a7e017d":{"type":"background-image-text","settings":{"subtitle":"Impressive","title":"Large image with text box","text":"<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>","button_label":"","button_link":"","image":"shopify:\/\/shop_images\/Runner.png","focal_point":"top","layout":"left","height":750,"framed":false,"parallax":false}},"67b583c1-deea-4f9b-8be5-498beb3aafec":{"type":"rich-text","blocks":{"template--18804480639307__67b583c1-deea-4f9b-8be5-498beb3aafec-1682094657e8033a79-0":{"type":"heading","settings":{"title":"Funktioner:"}},"template--18804480639307__67b583c1-deea-4f9b-8be5-498beb3aafec-1682094657e8033a79-1":{"type":"text","settings":{"enlarge_text":false,"text":"<ul><li>Meddelanden & notiser<\/li><li>Kalkylator<\/li><li>Tidsvisning<\/li><li>Stoppur<\/li><li>Tidtagare<\/li><li>Alarm<\/li><li>Stegräknare<\/li><li>Sömnanalys<\/li><li>Kroppsmätningar: syrenivå i blodet, blodtryck, hjärtfrekvens och kroppstemperatur<\/li><\/ul>"}}},"block_order":["template--18804480639307__67b583c1-deea-4f9b-8be5-498beb3aafec-1682094657e8033a79-0","template--18804480639307__67b583c1-deea-4f9b-8be5-498beb3aafec-1682094657e8033a79-1"],"settings":{"align_text":"left","narrow_column":true,"divider":false}},"sub":{"type":"product-full-width","disabled":true,"settings":{"max_width":true}},"product-recommendations":{"type":"product-recommendations","disabled":true,"settings":{"show_product_recommendations":true,"product_recommendations_heading":"You may also like","related_count":5}},"recently-viewed":{"type":"recently-viewed","settings":{"recent_count":2}},"3bb62ac3-67d4-48d9-b7bb-7ea8b83425ab":{"type":"faq","blocks":{"template--18804480639307__3bb62ac3-67d4-48d9-b7bb-7ea8b83425ab-1682094849f9dcb1be-0":{"type":"question","settings":{"title":"Är Oryon™-klockan vattentät?","text":"<p>Ja, klockan är klassificerad till IP67 och är vattentät.<\/p>"}},"template--18804480639307__3bb62ac3-67d4-48d9-b7bb-7ea8b83425ab-1682094849f9dcb1be-1":{"type":"question","settings":{"title":"Frequently asked question","text":"<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"}}},"block_order":["template--18804480639307__3bb62ac3-67d4-48d9-b7bb-7ea8b83425ab-1682094849f9dcb1be-0","template--18804480639307__3bb62ac3-67d4-48d9-b7bb-7ea8b83425ab-1682094849f9dcb1be-1"],"settings":{"title":"FAQs"}},"ac1238ac-7122-41fc-a213-8a971a9456dc":{"type":"text-with-icons","blocks":{"template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-0":{"type":"text_block","settings":{"icon":"package","title":"Säker leverans","text":"<p>Vi har redan levererat till hundratals kunder runt om i landet och våra beställningar behandlas inom 24 timmar från beställningen.<\/p>"}},"template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-1":{"type":"text_block","settings":{"icon":"ribbon","title":"Högkvalitativa material","text":"<p>Högkvalitativa material. Våra produkter tillverkas av högkvalitativa material som väljs noggrant för deras hållbarhet.<\/p>"}},"template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-2":{"type":"text_block","settings":{"icon":"shield","title":"100% nöjd!","text":"<p>100% nöjd! Vi har redan skickat ut hundratals produkter till kunder över hela landet. Om du inte är nöjd med produkten kan du returnera den till oss.<\/p>"}}},"block_order":["template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-0","template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-1","template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-2"],"settings":{"title":"","align_text":"center","desktop_columns_per_row":3,"icon_color":"#000000","button_label":"","button_link":"","divider":false}},"collection-return":{"type":"collection-return","disabled":true,"settings":{}},"loox-product-reviews-app-section":{"type":"apps","blocks":{"b1d6ba01-18c8-4c01-9938-d8607ab80061":{"type":"shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","settings":{"only_photos":false,"aggregated":false,"limit":20,"hide_thumbnails":false,"maxwidth":1080}}},"block_order":["b1d6ba01-18c8-4c01-9938-d8607ab80061"],"settings":{"full_width":false,"space_around":true}}},"order":["main","4d5d74ac-03a0-4972-b10e-ac93cddd27c3","0ce06143-05cc-4f0b-a091-6a5931aebe5b","4d4a4cab-3203-4261-b469-8e6d9a7e017d","67b583c1-deea-4f9b-8be5-498beb3aafec","sub","product-recommendations","recently-viewed","3bb62ac3-67d4-48d9-b7bb-7ea8b83425ab","ac1238ac-7122-41fc-a213-8a971a9456dc","collection-return","loox-product-reviews-app-section"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "4cc110f5-1194-4357-bb1d-a691c932e4af": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "Gratis leverans i Sverige 🇸🇪"
+          }
+        },
+        "a97937f0-34da-4f66-8021-d1395e5cead0": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "fef961fd-f8d9-4a4a-9e05-04d7e37eb1e9": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "top-strip-promotion-badge",
+            "locale_option": "manual",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "0",
+            "bottomPadding": "0"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "sales_point_show_inventory_status": false,
+            "sales_point_inventory_threshold": 10,
+            "sales_point_text_1": "",
+            "sales_point_text_2": "",
+            "payment_provider_logos": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Frakt och retur",
+            "content": "<p>Vi erbjuder en 30-dagars garanti, du kan få full återbetalning om du inte är nöjd. <\/p><p>Din beställning behandlas inom 24 timmar, leverans tar upp till 8 till 12 arbetsdagar.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox-rating",
+        "price",
+        "separator",
+        "variant_picker",
+        "4cc110f5-1194-4357-bb1d-a691c932e4af",
+        "sales_point",
+        "a97937f0-34da-4f66-8021-d1395e5cead0",
+        "fef961fd-f8d9-4a4a-9e05-04d7e37eb1e9",
+        "buy_buttons",
+        "description",
+        "tab"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "related_count": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 2
+      }
+    },
+    "ac1238ac-7122-41fc-a213-8a971a9456dc": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "Säker leverans",
+            "text": "<p>Vi har redan levererat till hundratals kunder runt om i landet och våra beställningar behandlas inom 24 timmar från beställningen.<\/p>"
+          }
+        },
+        "template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "ribbon",
+            "title": "Högkvalitativa material",
+            "text": "<p>Högkvalitativa material. Våra produkter tillverkas av högkvalitativa material som väljs noggrant för deras hållbarhet.<\/p>"
+          }
+        },
+        "template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shield",
+            "title": "100% nöjd!",
+            "text": "<p>100% nöjd! Vi har redan skickat ut hundratals produkter till kunder över hela landet. Om du inte är nöjd med produkten kan du returnera den till oss.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-0",
+        "template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-1",
+        "template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "b1d6ba01-18c8-4c01-9938-d8607ab80061": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "b1d6ba01-18c8-4c01-9938-d8607ab80061"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "product-recommendations",
+    "recently-viewed",
+    "ac1238ac-7122-41fc-a213-8a971a9456dc",
+    "collection-return",
+    "loox-product-reviews-app-section"
+  ]
+}
