@@ -6,6 +6,13 @@
         "loox-rating": {
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false
           }
         },
         "price": {
@@ -401,22 +408,6 @@
         "full_width": false,
         "space_around": true
       }
-    },
-    "9f0b5325-5551-4a05-bb7f-9295a26c1725": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/SilverFjordArtboard3copy.jpg",
-        "image_width": 700,
-        "subtitle": "",
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "right",
-        "divider": false
-      }
     }
   },
   "order": [
@@ -434,7 +425,6 @@
     "collection-return",
     "9e3a54af-3593-4d61-a275-9f9bbbd15bef",
     "16833003058d1c4a42",
-    "1683300312aa8c2a44",
-    "9f0b5325-5551-4a05-bb7f-9295a26c1725"
+    "1683300312aa8c2a44"
   ]
 }
