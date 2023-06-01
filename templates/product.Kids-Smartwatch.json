@@ -203,8 +203,8 @@
       "settings": {
         "image_width": 700,
         "subtitle": "",
-        "title": "Fokusmodus",
-        "text": "<p>Smartklokken kan stilles på lydløs på et bestemt tidspunkt eller en bestemt dag for å minimere distraksjoner i klassemodus. Kun SOS kan brukes ved aktivering. Perfekt for at barna skal kunne holde fokus på skolearbeidet eller studiene.<\/p>",
+        "title": "",
+        "text": "<h2>Fokuseringsläge<\/h2><p>Smartklockan kan tystas vid en viss tidpunkt eller på en viss dag för att minimera distraktioner i klassläge. Endast SOS kan användas när den är aktiverad. Perfekt för att hålla barnen fokuserade på sitt skolarbete eller sina studier.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
