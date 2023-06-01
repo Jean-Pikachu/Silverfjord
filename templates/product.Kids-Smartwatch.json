@@ -293,8 +293,8 @@
           "type": "text_block",
           "settings": {
             "icon": "shield",
-            "title": "100% fornøyd!",
-            "text": "<p>Kundetilfredshet er vår prioritet. Vi tilbyr en 30-dagers garanti på alle bestillinger, for å gi deg den beste shoppingopplevelsen.<\/p>"
+            "title": "100% nöjdhet!",
+            "text": "<p>Kundnöjdhet är vår prioritet. Vi erbjuder en 30-dagars garanti på alla <br\/>beställningar för att ge dig den bästa shoppingupplevelsen.<\/p>"
           }
         }
       },
