@@ -233,15 +233,15 @@
         "a9704090-3abf-4b41-9a36-93e87db39d3c": {
           "type": "question",
           "settings": {
-            "title": "Kan klockan ta emot meddelanden från min telefon?",
-            "text": "<p>Du kan skicka och ta emot meddelanden med vilken IOS 8.0 eller Android 4.4-telefon som helst.<\/p>"
+            "title": "Kan klokken motta meldinger fra telefonen min?",
+            "text": "<p>Du kan sende og motta meldinger med alle IOS 8.0- eller Android 4.4-telefoner.<\/p>"
           }
         },
         "c28ad170-c5b2-4ccd-8f81-26200fa317e1": {
           "type": "question",
           "settings": {
-            "title": "Hvilket program er aktuelt for å bruke den med telefonen min?",
-            "text": "<p>- Last ned programmet SeTracker 2 fra enhetens app store<\/p>"
+            "title": "Vilket program är tillämpligt för att använda det med min telefon?",
+            "text": "<p>- Ladda ner SeTracker 2 applikationen från enhetens app-butik<\/p>"
           }
         }
       },
