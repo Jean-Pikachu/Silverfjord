@@ -277,8 +277,8 @@
           "type": "text_block",
           "settings": {
             "icon": "package",
-            "title": "Trygg levering",
-            "text": "<p>Vi har allerede sendt til hundrevis av kunder over hele landet, våre bestillinger behandles innen 24 timer etter bestilling.<\/p>"
+            "title": "Säker leverans",
+            "text": "<p>Vi har redan levererat till hundratals kunder runt om i landet och våra <br\/>beställningar behandlas inom 24 timmar från beställningen.<\/p>"
           }
         },
         "template--16939604607262__ac1238ac-7122-41fc-a213-8a971a9456dc-16685264937f3bc6d5-1": {
