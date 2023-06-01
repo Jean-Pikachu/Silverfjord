@@ -165,6 +165,7 @@
     "99959fc4-f964-4e3c-be04-b55cb0bfed87": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Kids2schoolSuede.png",
         "image_width": 700,
         "subtitle": "",
         "title": "",
@@ -180,6 +181,7 @@
     "d195c49c-ddd8-421e-94a6-476d91a09063": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/IconSuede.png",
         "image_width": 700,
         "subtitle": "",
         "title": "",
@@ -201,6 +203,7 @@
     "aa157fc1-ffb2-45eb-94e5-755f697490fe": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Kids2school2Suede.png",
         "image_width": 700,
         "subtitle": "",
         "title": "",
@@ -258,6 +261,7 @@
     "4176a9fb-22a7-4546-ad92-67fe9750acc8": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/GPS.png",
         "image_width": 700,
         "subtitle": "",
         "title": "One-Touch SOS",
@@ -339,7 +343,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Våre andre klokker",
-        "home_featured_products": "klokker",
+        "home_featured_products": "smartklockor",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
