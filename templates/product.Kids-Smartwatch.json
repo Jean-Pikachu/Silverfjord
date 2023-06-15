@@ -232,7 +232,7 @@
           "type": "question",
           "settings": {
             "title": "Vilket SIM-kort ska användas för GPS-spårning?",
-            "text": "<p>Alla SIM-kort som är kompatibla med 2G. Storleken på SIM-kortet bör vara nano-sim.<\/p>"
+            "text": "<p>Alla SIM-kort som är kompatibla med 2G med data, taltid och en bandbredd på 900 MHz\/1800 MHz. SIM-kortets storlek ska vara nano-sim.<\/p>"
           }
         },
         "a9704090-3abf-4b41-9a36-93e87db39d3c": {
