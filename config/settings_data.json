@@ -91,15 +91,24 @@
           "8b7facd2-cc5d-4b87-83d1-d2e945749a2b": {
             "type": "announcement",
             "settings": {
-              "text": "Spring Deals 🌻:",
-              "link_text": "Rabatt på hela webbplatsen och fri frakt",
+              "text": "",
+              "link_text": "Fri frakt",
+              "link": ""
+            }
+          },
+          "75258161-cf3b-4db2-85fa-2dd728284a5d": {
+            "type": "announcement",
+            "settings": {
+              "text": "",
+              "link_text": "Upptäck vår nya smartklocka för barn",
               "link": ""
             }
           }
         },
         "block_order": [
           "1524770014057",
-          "8b7facd2-cc5d-4b87-83d1-d2e945749a2b"
+          "8b7facd2-cc5d-4b87-83d1-d2e945749a2b",
+          "75258161-cf3b-4db2-85fa-2dd728284a5d"
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
