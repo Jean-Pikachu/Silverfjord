@@ -31,15 +31,8 @@
           "type": "variant_picker",
           "settings": {
             "variant_labels": true,
-            "picker_type": "button",
+            "picker_type": "dropdown",
             "color_swatches": false
-          }
-        },
-        "4cc110f5-1194-4357-bb1d-a691c932e4af": {
-          "type": "inventory_status",
-          "settings": {
-            "inventory_threshold": 10,
-            "inventory_transfers_enable": true
           }
         },
         "6af0faec-1f00-4e73-9a7e-db10f6cb9519": {
@@ -84,7 +77,7 @@
           "settings": {
             "show_dynamic_checkout": false,
             "surface_pickup_enable": false,
-            "sales_point_show_inventory_status": false,
+            "sales_point_show_inventory_status": true,
             "sales_point_inventory_threshold": 10,
             "sales_point_icon_1": "shopify:\/\/shop_images\/shipping-box.svg",
             "sales_point_text_1": "Gratis leverans i Sverige 🇸🇪",
@@ -113,7 +106,6 @@
         "price",
         "separator",
         "variant_picker",
-        "4cc110f5-1194-4357-bb1d-a691c932e4af",
         "6af0faec-1f00-4e73-9a7e-db10f6cb9519",
         "73a7447c-069c-4f19-b617-a459ddf5b371",
         "ed31cba7-ac6b-4080-8836-c3e77e0c343e",
